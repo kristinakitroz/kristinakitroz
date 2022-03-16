@@ -1,0 +1,396 @@
+#slika2{
+    width: 500px;
+    height: 800px;
+    padding-top: 200px;
+    margin-top: 0px;
+    margin-left: -30px;
+
+}
+#slika11{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 500px;
+
+    padding-left: 5px;
+
+}
+#slika21{
+    width: 500px;
+    height: 800px;
+    padding-top: 200px;
+    margin-top: 0px;
+    margin-left: -30px;
+
+}
+#slika1{
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 500px;
+
+    padding-left: 5px;
+
+}
+#slika3{
+    width: 750px;
+    height: 750px;
+    padding-left: 5px;
+    margin-top: -600px;
+    margin-left: 1200px;
+
+}
+#text2
+{
+    text-align: right;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: 40px;
+}
+#mail
+{
+    width: 30px;
+    height: 25px;
+}
+
+#text3
+{
+    margin-top: 50px;
+    width: 40%;
+}
+.whites
+{
+    margin-top: 20px;
+}
+* {
+    box-sizing: border-box;
+  }
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    /* Flexbox stuff */
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   /* Text styles */
+    text-align: center;
+    color: black; /* ADD THIS LINE */
+    /* Background styles */
+        background-image:url('https://www.photos-public-domain.com/wp-content/uploads/2012/04/aqua-colored-water-texture.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+}
+
+.hero p {
+    /* Text styles */
+   font-size: 3em;
+    /* Margins */
+   margin-top: 0;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   justify-content: flex-start;
+   font-family: "Times New Roman", Times, serif;
+    width: 900px;
+	
+}
+
+#kiki{
+    font-size: 55px;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+    /* Border styles */
+    border: 3px solid black;
+    border-radius: 20px;
+    /* Padding and margins */
+        padding: 1em;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    /* Text styles */
+        color: black;
+        text-decoration: none;
+        font-size: 1.5em;
+    /* Background styles */
+    background-color: rgba(147, 112, 219, 0.8);
+
+}
+header img {
+    height: 80px;
+    margin-left: 40px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+
+}
+#images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    margin-bottom: 150px;
+}
+
+#images img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX( -30%);
+    transition: bottom 1s, left 1s;
+}
+
+#images:hover .girl{
+    left: 45%;
+}
+#images:hover .shape{
+    bottom: 40px;
+}
+
+
+     .btn
+    {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px 40px;
+        font-size: medium;
+        background-color: transparent;
+        color: antiquewhite;
+        outline: none;
+        transition: .5s ease;
+    }
+    .btn a:link, .button1 a:visited, .button1 a:active
+    {
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px 40px;
+        font-size: medium;
+        background-color: transparent;
+        color: antiquewhite;
+        outline: none;
+        transition: .5s ease;
+    }
+   .btn :hover
+    {
+        font-size: medium;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 3px antiquewhite, 0 0 5px antiquewhite, 0 0 10px antiquewhite;
+        padding: 15px 40px;
+        outline: none;
+        transition: .5s ease;
+    }
+    .navbar
+    {
+        width: 5500px;
+        display: flex;
+        background-color: #89CFF0;
+        top: 0;
+    }
+    .navbar ul li
+    {
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 15px;
+    }
+    .navbar ul li a
+    {
+        text-decoration: none;
+        color: black;
+        padding: 8px 25px;
+        transition: all .5s ease;
+        font-size: 20px;
+    }
+    .column  {
+
+
+        float: left;
+
+
+
+      }
+    .tekst
+    {
+        padding-left: 120px;
+        margin-top: -100px;
+        float: left;
+        width: 40%;
+        font-size: 20px;
+
+    }
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    .navbar ul li a:hover
+    {
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 13px antiquewhite;
+        font-size: 20px;
+    }
+
+    .naslov
+    {
+        padding-top: 60px;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 3rem;
+        text-align: center;
+        align-items: center;
+        margin-top: 0px;
+
+    }
+
+
+    #aboutme{
+        background-color: white;
+        text-align: left;
+        height: 900px;
+        background-image:url("watercolor.jpg");
+        background-position: center center;
+        background-size: cover;
+    }
+
+        .about p {
+            /* Text styles */
+           font-size: 2em;
+            /* Margins */
+           margin-top: 5em;
+           margin-bottom: 0.5em;
+           margin-left: 1em;
+           justify-content: flex-start;
+           font-family: "Times New Roman", Times, serif;
+            width: 600px;
+
+        }
+
+.texttext{
+    width: 25px;
+}
+#hobby
+{
+	max-width: 100%;
+    background-color: white;
+    height: 1000px;
+    background-image:url("watercolor.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+
+  .Hobby p {
+        /* Text styles */
+       font-size: 2em;
+        /* Margins */
+       margin-top: 5em;
+       margin-bottom: 0.5em;
+       margin-left: 1em;
+       justify-content: flex-start;
+       font-family: "Times New Roman", Times, serif;
+        width: 600px;
+
+    }
+    .Hobby {
+        background-size: cover;
+        background-position: center center;
+
+    }
+    #mysmallbussiness{
+
+        background-color: white;
+        text-align: left;}
+    .mysmallbussiness p {
+              /* Text styles */
+             font-size: 2em;
+              /* Margins */
+             margin-top: 5em;
+             margin-bottom: 0.5em;
+             margin-left: 1em;
+             justify-content: flex-start;
+             font-family: "Times New Roman", Times, serif;
+              width: 600px;
+
+          }
+    .mysmallbussiness {
+              background-image:url("watercolor.jpg");
+              background-size: cover;
+              background-position: center center;}
+       #contactme
+              {
+                  color: black;
+                  font-size: 20px;
+                  text-align: center;
+                  align-items: center;
+                  display:flex;
+                  flex-direction: column;
+                  padding: 20px;
+                  height: 960px;
+              }
+      #contactme{
+       background-image:url("watercolor.jpg");
+       background-size: cover;
+       background-position: center center;}
+	   
+.hero-inner 
+{
+ text-shadow:
+    0 1px 0px #378ab4,
+    1px 0 0px #5dabcd,
+    1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd,
+    2px 3px 2px #378ab4,
+    3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4,
+    4px 3px 3px #5dabcd,
+    4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd,
+    5px 6px 2px #378ab4,
+    6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4,
+    7px 6px 1px #5dabcd,
+    7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
+	font-size:20px;
+	
+	
+}
+
