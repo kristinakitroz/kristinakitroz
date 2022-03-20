@@ -207,7 +207,7 @@ header li a {
     }
    .btn :hover
     {
-         font-size: medium;
+        font-size: medium;
         font-weight: bold;
         cursor: pointer;
         background-color: white;
