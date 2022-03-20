@@ -211,9 +211,8 @@ header li a {
         background-color: white;
         color: black;
         box-shadow: 0 0 3px antiquewhite, 0 0 5px antiquewhite, 0 0 10px antiquewhite;
-        padding: 15px 40px;
+        
         outline: none;
-        transition: .5s ease;
     }
     .navbar
     {
