@@ -106,7 +106,7 @@
     display: block;
     width: 200px;
     /* Border styles */
-  
+     border: 3px solid black;
     /* Padding and margins */
         padding: 1em;
         margin-top: 50px;
@@ -205,7 +205,7 @@ header li a {
     }
    .btn :hover
     {
-   
+     
         font-weight: bold;
         cursor: pointer;
         color: black;
